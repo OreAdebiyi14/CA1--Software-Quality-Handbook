@@ -1,14 +1,14 @@
 # Code Reviews
 
 **Purpose:**
-    - To define what code reviews are.
-    - Why they're important for everyone.
-    - To give practical and functional guidelines for both reviewers and authors.
+- To define what code reviews are.
+- Why they're important for everyone.
+- To give practical and functional guidelines for both reviewers and authors.
 
 **Goal:**
-    - To improve code quality.
-    - To increase the knowledge on Code reviewers.
-    - Promote a more positive collaborative culture.
+- To improve code quality.
+- To increase the knowledge on Code reviewers.
+- Promote a more positive collaborative culture.
 
 -- 
 
@@ -50,19 +50,19 @@
 The aim for this is to provide a clear guideline for any team to ensure constructive and efficient reviews.
 
 **Delivery & Feedback:**
-    - Be respectful and focus on only the code not the person coding. 
-    - Make sure the questions being asked are precise and clarifying to read and understand.
+- Be respectful and focus on only the code not the person coding. 
+- Make sure the questions being asked are precise and clarifying to read and understand.
 
 **Guidelines:**
-    - Point out the exact area that are needed for improvement.
-    - Explain why they need to make the change.
-    - Give effective solutions and clean code.
+- Point out the exact area that are needed for improvement.
+- Explain why they need to make the change.
+- Give effective solutions and clean code.
 
 **Reviewers Checklist:**
-    - Is the code clear and understandable?
-    - Are the tests comprehensible?
-    - Does the code follow the standard set?
-    - Are there any issues with security or performance?
+- Is the code clear and understandable?
+- Are the tests comprehensible?
+- Does the code follow the standard set?
+- Are there any issues with security or performance?
 
 --
 
@@ -70,20 +70,20 @@ The aim for this is to provide a clear guideline for any team to ensure construc
 The aim for Authors is to equip them with pratical steps to prepare their code for a steady review process.
 
 **Preparation**
-    - Reviewing own work for any issues before submitting.
-    - Reduce the size of large features into smaller pull requests.
-    - Add detailed descriptions and contexts about the pull request.
+- Reviewing own work for any issues before submitting.
+- Reduce the size of large features into smaller pull requests.
+- Add detailed descriptions and contexts about the pull request.
 
 **Engagement**
-    - Be open to feedback and ask questions.
-    - Update any relevant documentation and tests as needed.
+- Be open to feedback and ask questions.
+- Update any relevant documentation and tests as needed.
 
 **Do's**
-    - Write a clear commit message.
-    - Update relevant documentation.
+- Write a clear commit message.
+- Update relevant documentation.
 
 **Dont's**
-    - Submit huge changes that have no aim.
+- Submit huge changes that have no aim.
 
 --
 
