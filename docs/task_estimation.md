@@ -17,6 +17,13 @@
 **Encourage Team Collaboration**  
 - Estimation should be a collaborative effort involving all team members. Diverse perspectives lead to more accurate estimations, reducing the risk of underestimation or overestimation.
 
+**Review & Improve Estimates Continuously** 
+- Compare previous estimates with actual completion times to improve future accuracy.
+
+**Select the Right Estimation Method** 
+- Choose estimation techniques that fit the complexity of the task.  
+
+
 The following image provides **key tips to improve estimation accuracy** in Scrum:
 
   ![6 Tips to Improve Your Estimations](images/Tips-for-Effective-Estimating.webp)
@@ -39,6 +46,27 @@ Estimation techniques vary in complexity and accuracy, and choosing the right ap
 **Work Breakdown Approach:**
   - **Breaking Down Large Tasks** – Dividing large user stories into smaller tasks improves accuracy and reduces ambiguity in estimation.  
 
+The following diagram provides a **visual breakdown** of estimation techniques:
+
+    ```mermaid
+    graph TD;
+        A[Task Estimation Methods] --> B[Consensus-Based Estimation]
+        B --> C[Planning Poker]
+        A --> D[Relative Sizing]
+        D --> E[T-Shirt Sizing]
+        D --> F[Affinity Estimation]
+        A --> G[Work Breakdown Approach]
+        G --> H[Breaking Down Large Tasks]
+
+        %% Styling for better readability
+        classDef mainNode fill:#f4b400,stroke:#000,stroke-width:2px;
+        classDef subNode fill:#34a853,stroke:#000,stroke-width:1px;
+        classDef method fill:#4285f4,stroke:#000,stroke-width:1px;
+
+        class A mainNode;
+        class B,D,G subNode;
+        class C,E,F,H method;
+    ```
 ---
 
 ## **4. Strategies to Improve Estimation Accuracy**
@@ -52,9 +80,17 @@ Estimation techniques vary in complexity and accuracy, and choosing the right ap
 
 Many teams fall into common estimation pitfalls, such as over-estimating to buffer time or underestimating complexity. **[Let's Talk About Estimates](https://medium.com/@patrickbrock_40978/lets-talk-about-estimates-f4ca45db96fb)** describes how unrealistic estimates can lead to misaligned expectations and project delays.
 
-- **Over-Estimating to Be Safe** – Excessive padding can lead to inefficiencies, resulting in wasted time and resources. 
-- **Underestimating Task Complexity** – Failing to account for hidden complexities can lead to unfinished sprints, technical debt, and missed deadlines.
+**Over-Estimating to Be Safe** – Excessive padding can lead to inefficiencies, resulting in wasted time and resources. 
 
+**Underestimating Task Complexity** – Failing to account for hidden complexities can lead to unfinished sprints, technical debt, and missed deadlines.
+
+**Lack of Iterative Improvement** – Not refining estimation techniques results in persistent inaccuracies.  
+
+To further illustrate these points, consider the following video:
+
+[![8 Horrible Mistakes with Estimation (Agile Scrum)](https://img.youtube.com/vi/oZGqldCqh8E/0.jpg)](https://www.youtube.com/watch?v=oZGqldCqh8E)
+
+*Source: [8 Horrible Mistakes with Estimation (Agile Scrum)](https://www.youtube.com/watch?v=oZGqldCqh8E)*
 ---
 
 ## **6. Tools & Techniques for Estimation**  
