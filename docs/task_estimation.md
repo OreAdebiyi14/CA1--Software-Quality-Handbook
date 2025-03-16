@@ -3,25 +3,35 @@
 ---
 
 ## **1. Overview & Importance**  
-- Accurate task estimation is crucial for effective sprint planning, ensuring realistic deadlines and balanced workloads.  
-- Poor estimation can lead to missed deadlines, overworked teams, and scope creep.  
+- Task estimation is a critical process in Scrum that allows teams to predict effort, allocate resources effectively, and ensure a balanced workload.
+- Without proper estimation, teams may struggle with missed deadlines, overworked developers, and uncontrolled scope creep. Proper task estimation enables better sprint planning, leading to predictable and efficient development cycles.
+- For example, as discussed in **[Stories and Task Estimation](https://www.reddit.com/r/scrum/comments/18bbr88/stories_and_task_estimation/)**, teams that implemented structured estimation techniques saw a reduction in last-minute changes and improved sprint predictability.  
 
 ---
 
 ## **2. Key Guidelines for Effective Estimation**
-- **Define Clear Estimation Criteria** – Establish shared understanding of effort levels among team members.
-- **Encourage Team Collaboration** – Ensure all members of the team participate in the estimation process.
+
+**Define Clear Estimation Criteria** 
+- Teams should establish a shared understanding of effort levels for different tasks. Using consistent criteria helps standardize estimation across different team members.
+
+**Encourage Team Collaboration**  
+- Estimation should be a collaborative effort involving all team members. Diverse perspectives lead to more accurate estimations, reducing the risk of underestimation or overestimation.
 
 ---
 
 ## **3. Different Types of Estimation**
-- **Consensus-Based Estimation:**
-  - **Planning Poker** – Uses story points to align teams through discussion.
-- **Relative Sizing:**
-  - **T-Shirt Sizing** – Categorises tasks into sizes like XS, S, M, L, XL.
-  - **Affinity Estimation** – Groups similar tasks and estimates their effort collectively.
-- **Work Breakdown Approach:**
-  - **Breaking Down Large Tasks** – Ensures better estimation accuracy by dividing tasks into smaller components.  
+
+Estimation techniques vary in complexity and accuracy, and choosing the right approach is essential. According to **[How to Estimate Tasks in Scrum?](https://softwareengineering.stackexchange.com/questions/216796/how-to-estimate-tasks-in-scrum)**, teams often struggle to balance precision with efficiency, which is why a combination of methods is often recommended.
+
+**Consensus-Based Estimation:**
+  - **Planning Poker** – A collaborative estimation technique where team members assign story points based on discussion and consensus.
+  
+**Relative Sizing:**
+  - **T-Shirt Sizing** – Categorises tasks into sizes like XS, S, M, L, XL for quick estimation.
+  - **Affinity Estimation** – Groups tasks based on similarities in effort, allowing teams to estimate large backlogs efficiently.
+  
+**Work Breakdown Approach:**
+  - **Breaking Down Large Tasks** – Dividing large user stories into smaller tasks improves accuracy and reduces ambiguity in estimation.  
 
 ---
 
@@ -33,8 +43,11 @@
 ---
 
 ## **5. Common Mistakes & Bad Practices**  
-- **Over-Estimating to Be Safe** – Adding excessive padding wastes time and misallocates resources.  
-- **Underestimating Task Complexity** – Leads to sprint overflows and technical debt.  
+
+Many teams fall into common estimation pitfalls, such as over-estimating to buffer time or underestimating complexity. **[Let's Talk About Estimates](https://medium.com/@patrickbrock_40978/lets-talk-about-estimates-f4ca45db96fb)** describes how unrealistic estimates can lead to misaligned expectations and project delays.
+
+- **Over-Estimating to Be Safe** – Excessive padding can lead to inefficiencies, resulting in wasted time and resources. 
+- **Underestimating Task Complexity** – Failing to account for hidden complexities can lead to unfinished sprints, technical debt, and missed deadlines.
 
 ---
 
