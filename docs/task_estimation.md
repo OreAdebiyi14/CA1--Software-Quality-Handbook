@@ -17,6 +17,10 @@
 **Encourage Team Collaboration**  
 - Estimation should be a collaborative effort involving all team members. Diverse perspectives lead to more accurate estimations, reducing the risk of underestimation or overestimation.
 
+  ![6 Tips to Improve Your Estimations](images/Tips-for-Effective-Estimating.webp)
+
+  **Source** **[Tips for more accurate Estimating Sessions](https://softwaredevtools.com/blog/tips-for-effective-estimating-sessions/)**
+
 ---
 
 ## **3. Different Types of Estimation**
