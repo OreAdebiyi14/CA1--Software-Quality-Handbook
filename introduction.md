@@ -32,3 +32,5 @@ Additional resources, definitions, and references to support the handbook.
 
 ## Repository Structure
 
+The hanbook is maintained in a public repository (https://github.com/OreAdebiyi14/CA1--Software-Quality-Handbook), using a Trunk-Based Development process to show our collaborative improvements and version control.
+
