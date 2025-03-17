@@ -26,9 +26,9 @@
 
 The following image provides **key tips to improve estimation accuracy** in Scrum:
 
-  ![6 Tips to Improve Your Estimations](images/Tips-for-Effective-Estimating.webp)
+  ![6 Tips to Improve Your Estimations](/images/Tips-for-Effective-Estimating.webp)
 
-  **Source** **[Tips for more accurate Estimating Sessions](https://softwaredevtools.com/blog/tips-for-effective-estimating-sessions/)**
+  ***Source** **[Tips for more accurate Estimating Sessions](https://softwaredevtools.com/blog/tips-for-effective-estimating-sessions/)***
 
 ---
 
@@ -48,25 +48,25 @@ Estimation techniques vary in complexity and accuracy, and choosing the right ap
 
 The following diagram provides a **visual breakdown** of estimation techniques:
 
-    ```mermaid
-    graph TD;
-        A[Task Estimation Methods] --> B[Consensus-Based Estimation]
-        B --> C[Planning Poker]
-        A --> D[Relative Sizing]
-        D --> E[T-Shirt Sizing]
-        D --> F[Affinity Estimation]
-        A --> G[Work Breakdown Approach]
-        G --> H[Breaking Down Large Tasks]
+ ```mermaid
+graph TD;
+    A[Task Estimation Methods] --> B[Consensus-Based Estimation]
+    B --> C[Planning Poker]
+    A --> D[Relative Sizing]
+    D --> E[T-Shirt Sizing]
+    D --> F[Affinity Estimation]
+    A --> G[Work Breakdown Approach]
+    G --> H[Breaking Down Large Tasks]
 
-        %% Styling for better readability
-        classDef mainNode fill:#f4b400,stroke:#000,stroke-width:2px;
-        classDef subNode fill:#34a853,stroke:#000,stroke-width:1px;
-        classDef method fill:#4285f4,stroke:#000,stroke-width:1px;
+    %% Styling for better readability
+    classDef mainNode fill:#f4b400,stroke:#000,stroke-width:2px;
+    classDef subNode fill:#34a853,stroke:#000,stroke-width:1px;
+    classDef method fill:#4285f4,stroke:#000,stroke-width:1px;
 
-        class A mainNode;
-        class B,D,G subNode;
-        class C,E,F,H method;
-    ```
+    class A mainNode;
+    class B,D,G subNode;
+    class C,E,F,H method;
+```
 ---
 
 ## **4. Strategies to Improve Estimation Accuracy**
