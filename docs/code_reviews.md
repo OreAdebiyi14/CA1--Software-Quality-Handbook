@@ -47,7 +47,7 @@
 ---
 
 ## 2. Best Practices for Reviewers
-*The aim for this is to provide a clear guideline for any team to ensure constructive and efficient reviews.*
+*Aim: Provide a clear guideline for any team to ensure constructive and efficient reviews.*
 
 **Delivery & Feedback:**
 - Be respectful and focus on only the code not the person coding. 
@@ -67,7 +67,7 @@
 ---
 
 ## 3. Best Practices for Code Authors
-*The aim for Authors is to equip them with pratical steps to prepare their code for a steady review process.*
+*Aim: Equip authors with pratical steps to prepare their code for a steady review process.*
 
 **Preparation**
 - Reviewing own work for any issues before submitting.
