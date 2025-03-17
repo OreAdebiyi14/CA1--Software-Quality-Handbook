@@ -10,7 +10,7 @@
 - To increase the knowledge on Code reviewers.
 - Promote a more positive collaborative culture.
 
--- 
+---
 
 ## 1. Overview & Benefits
 
@@ -44,10 +44,10 @@
 
         G -->|Code is Merged| I & J & K & L & M;
 
---
+---
 
 ## 2. Best Practices for Reviewers
-The aim for this is to provide a clear guideline for any team to ensure constructive and efficient reviews.
+*Aim: Provide a clear guideline for any team to ensure constructive and efficient reviews.*
 
 **Delivery & Feedback:**
 - Be respectful and focus on only the code not the person coding. 
@@ -64,10 +64,10 @@ The aim for this is to provide a clear guideline for any team to ensure construc
 - Does the code follow the standard set?
 - Are there any issues with security or performance?
 
---
+---
 
 ## 3. Best Practices for Code Authors
-The aim for Authors is to equip them with pratical steps to prepare their code for a steady review process.
+*Aim: Equip authors with pratical steps to prepare their code for a steady review process.*
 
 **Preparation**
 - Reviewing own work for any issues before submitting.
@@ -85,27 +85,115 @@ The aim for Authors is to equip them with pratical steps to prepare their code f
 **Dont's**
 - Submit huge changes that have no aim.
 
---
+---
 
-## 4. Tools and Automation
+## 4. Tools and Automation  
+*Aim: Leverage automation to streamline the code review process and focus human effort on high-level analysis.*
+
+**Why Automate?**  
+- Handle trivial issues like formatting, linting, and simple syntax errors automatically.
+
+**Recommended Tools:**  
+- **Linters and Formatters:** Ensure consistent code style.  
+- **CI/CD Pipelines:** Run tests and static analysis before manual review.
+
+**Integration Tips:**  
+- Set up pre-review automation to catch low-level issues.
+- Focus human review on logic, design, and potential risks.
+
+
+**CI/CD Pipeline Dashboard Example:**  
+<img src="https://docs.gitlab.com/ci/pipelines/img/manual_job_v17_9.png" alt="CI/CD Dashboard" title="CI/CD Dashboard" width="600" />  
+*Caption:* CI/CD pipeline dashboard displaying build status and test results.
 
 ---
 
-## 5. Common Pitfalls & Mitigation Strategies
+## 5. Common Pitfalls & Mitigation Strategies  
+*Aim: Identify challenges and provide actionable tips to overcome them.*
+
+**Pitfalls to Avoid:**  
+- **Overly Large Pull Requests:** Difficult to review thoroughly.  
+- **Unconstructive Criticism:** Personal or vague comments that hinder progress.
+- **Ignoring Automation:** Manually reviewing issues that tools can catch.
+
+```mermaid
+flowchart TB
+    subgraph "Pitfalls (Don'ts)"
+      D1[Overly Large PRs]
+      D2[Unconstructive Criticism]
+      D3[Ignoring Automation]
+    end
+```
+
+**Mitigation Strategies:**  
+- Break changes into smaller, focused PRs.
+- Use standardized checklists to maintain objectivity.
+- Encourage a culture of respectful feedback and continuous learning.
+
+```mermaid
+flowchart TB
+    subgraph "Solutions (Do's)"
+      S1[Break changes into smaller PRs]
+      S2[Use standardized checklists]
+      S3[Foster respectful feedback]
+    end
+```
 
 ---
 
-## 6. Quick Reference Summary
+## 6. Quick Reference Summary  
+*Aim: Provide a concise, one-page summary for rapid recall.*
+
+**Key Takeaways:**  
+- **For Reviewers:** Use clear, respectful, and actionable feedback.  
+- **For Authors:** Prepare well, keep changes small, and be open to suggestions.  
+- **Automation is Key:** Utilize tools to handle routine checks.
+  
+**Visual Summary:**  
+```mermaid
+graph TD;
+    A[Code Review Cheat Sheet] --> B[Key Steps];
+    B --> C[Clear Feedback];
+    B --> D[Use Checklists];
+    A --> E[Authors' Tips];
+    E --> F[Prepare Code];
+    E --> G[Keep PRs Small];
+    A --> H[Automation];
+    H --> I[Linters & CI/CD];
+    A --> J[Avoid Pitfalls];
+    J --> K[Large PRs & Criticism];
+    A --> L[Mitigation];
+    L --> M[Break PRs];
+    L --> N[Respectful Feedback];
+```
+*Caption:* A concise visual cheatsheet for rapid recall for good code reviews practices.
 
 ---
 
-## 7. Conclusion & Next Steps
+## 7. Conclusion & Next Steps  
+- **Wrap-Up:**  
+- Recap the benefits and essential guidelines for effective code reviews.
+
+**Action Items:**  
+- Integrate checklists and automation into your current workflow.
+- Schedule a team meeting to discuss and refine these practices.
+
+**Visual Overview:**  
+```mermaid
+graph LR;
+    A[Start] --> B[Define Guidelines];
+    B --> C[Set Up Automation];
+    C --> D[Train Team];
+    D --> E[Use Checklists];
+    E --> F[Review & Improve];
+    F --> G[Effective Code Reviews];
+```
+*Caption:* A concise roadmap for implementing effective code review practices.
 
 ---
 
 ## 8. References
 
----
 
 1. **[How to Make Good Code Reviews Better](https://stackoverflow.blog/2019/09/30/how-to-make-good-code-reviews-better/)** – Stack Overflow Blog (2019)
 
