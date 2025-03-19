@@ -2,9 +2,9 @@
 
 Software quality is essential for enduring reliable, maintainable, and efficient software development. We created this Handbook to prevent any future inconsistent workflows that could lead to unpredictable progress or frequent defects in production. 
 
-To address these challenges, this Software Quality Handbook will establish the best practices to improve any developemtn consistency and efficiency.
+To address these challenges, this Software Quality Handbook will establish the best practices to improve any development, consistency and efficiency.
 
-This handbook will serve as a guidline for developers to cover key aspects of software qaultiy assurance including:
+This handbook will serve as a guidline for developers to cover key aspects of software quality assurance including:
 
 - Task estimation, 
 - Code reviews, 
@@ -17,7 +17,7 @@ This handbook will serve as a guidline for developers to cover key aspects of so
 This handbook is structured into the following sections:
 
 ### **1. Task Estimation in Scrum**
-Guidelines on improving task estimation accurancy.
+Guidelines on improving task estimation accuracy.
 
 ### **2. Code Reviews**
 Best practices for conducting effective and constructive code reviews.
@@ -32,5 +32,5 @@ Additional resources, definitions, and references to support the handbook.
 
 ## Repository Structure
 
-The hanbook is maintained in a public repository (https://github.com/OreAdebiyi14/CA1--Software-Quality-Handbook), using a Trunk-Based Development process to show our collaborative improvements and version control.
+The handbook is maintained in a public repository: [GitHub Repository](https://github.com/OreAdebiyi14/CA1--Software-Quality-Handbook), using a Trunk-Based Development process to show our collaborative improvements and version control.
 
