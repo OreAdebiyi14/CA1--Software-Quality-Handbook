@@ -73,6 +73,9 @@ graph TD;
 - **Include Risk Factors** – Consider complexity, dependencies, and uncertainties in estimations.
 - **Timebox Estimation Discussions** – Avoid overanalysing estimates to keep the process efficient.
 - **Run Post-Sprint Reviews** – Discuss estimation accuracy after sprints to refine future estimates.
+- **Use Historical Data** – Analyze past sprints and similar tasks to anchor new estimates with real data.
+- **Define "Ready" and "Done" Criteria** – Clarify what’s expected before and after task completion to reduce ambiguity.
+- **Create Spikes for Uncertainty** – Use timeboxed exploration tasks (spikes) to evaluate unknowns before estimating.
 
 ---
 
@@ -95,20 +98,33 @@ To further illustrate these points, consider the following video:
 
 ## **6. Tools & Techniques for Estimation**  
 - **JIRA & Confluence** – Track past sprint estimations and improve future ones.  
-- **GitHub Issues & Story Points** – Assign and review estimations for accuracy.  
+- **GitHub Issues & Story Points** – Assign and review estimations for accuracy.
+- **Planning Poker Apps** – Tools like **Scrumpoker Online**, **PointingPoker**, or **Miro** support collaborative remote estimation.
+- **JIRA Estimation Plugins** – Add-ons like **Agile Poker** integrate planning poker directly into sprint planning workflows.
+- **Forecasting Tools** – Advanced platforms like **CodeClimate Velocity** use team velocity and code changes to project delivery estimates.  
 
 ---
 
 ## **7. Quick Reference Summary**  
 - Involve **the whole team** in estimation discussions.  
-- Avoid **common pitfalls like underestimating complexity and ignoring risk factors**.  
+- Avoid **common pitfalls like underestimating complexity and ignoring risk factors**.
+-  **Timebox discussions** — avoid analysis paralysis.
+-  **Choose the right technique** — Planning Poker, T-shirt sizing, etc.
+-  **Use historical data** where possible to avoid gut-based guessing.
+-  **Run post-sprint reviews** to improve future estimates.
+
+
+
 
 ---
 
 ## **8. Conclusion & Next Steps**  
 - Task estimation is an iterative process that improves over time.  
-- Teams should regularly **review and adjust their estimation methods** to match real project timelines.  
-
+**Next Steps for Your Team:**
+-  Schedule a sprint retrospective focused on estimation accuracy.
+-  Try out a new estimation tool or technique in the next sprint (e.g., Planning Poker or Affinity Estimation).
+-  Track estimation accuracy over 2–3 sprints and adjust based on trends.
+-  Document estimation guidelines in a shared location (like Confluence or your GitHub wiki).
 ---
 
 ## **9. References/ Further Reading**  
