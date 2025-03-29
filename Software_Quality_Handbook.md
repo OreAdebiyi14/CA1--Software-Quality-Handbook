@@ -1,8 +1,7 @@
-
-
+#Software Quality Handbook
 ---
 
-# Introduction
+## Introduction
 Software quality is essential for enduring reliable, maintainable, and efficient software development. We created this Handbook to prevent any future inconsistent workflows that could lead to unpredictable progress or frequent defects in production. 
 
 To address these challenges, this Software Quality Handbook will establish the best practices to improve any development, consistency and efficiency.
@@ -40,7 +39,7 @@ The handbook is maintained in a public repository: [GitHub Repository](https://g
 
 ---
 
-# Project Plan: Software Quality Handbook
+# [Project Plan: Software Quality Handbook](project_plan.md)
 
 ## **1. Project Overview**
 As part of our team, we have been tasked with developing a **Software Quality Handbook** to establish best practices and improve our development workflow.
@@ -99,7 +98,7 @@ The handbook will be published in a **public GitHub repository** and structured 
 
 ---
 
-# Task Estimation in Scrum 
+# [Task Estimation in Scrum](docs/task_estimation.md) 
 
 ---
 
@@ -123,8 +122,6 @@ The handbook will be published in a **public GitHub repository** and structured 
 
 **Select the Right Estimation Method** 
 - Choose estimation techniques that fit the complexity of the task.  
-
-
 
 
   ![6 Tips to Improve Your Estimations](/images/Tips-for-Effective-Estimating.webp)
@@ -224,7 +221,7 @@ To further illustrate these points, consider the following video:
 
 ---
 
-# Code Reviews
+# [Code Reviews](docs/code_reviews.md)
 
 **Purpose:**
 - To define what code reviews are.
@@ -434,7 +431,7 @@ graph LR;
 
 ---
 
-# Debugging & Bug Tracking
+# [Debugging & Bug Tracking](docs/debugging.md)
 
 ## 1. Overview & Importance
 
