@@ -42,9 +42,9 @@ The handbook is maintained in a public repository: [GitHub Repository](https://g
 # [Project Plan: Software Quality Handbook](project_plan.md)
 
 ## **1. Project Overview**
-As part of our team, we have been tasked with developing a **Software Quality Handbook** to establish best practices and improve our development workflow.
+As part of our software engineering team, we have been tasked with developing a **Software Quality Handbook** to establish best practices and improve our development workflow.
 
-Currently, in our team we are follow different workflows, leading to **unpredictable project progress and frequent defects** in production. This handbook will define **clear quality standards** for all engineers, ensuring consistency and efficiency across all projects.
+Currently, in our team of 20 software engineers we are follow different workflows, leading to **unpredictable project progress and frequent defects** in production. This handbook will define **clear quality standards** for all engineers, ensuring consistency and efficiency across all projects.
 
 The handbook will cover the following key topics:
 - **Task Estimation in Scrum**
@@ -95,6 +95,11 @@ The handbook will be published in a **public GitHub repository** and structured 
 - **FT & JO**: Conduct final review & edits  
 - **OA**: Submit final version & GitHub repository
 
+### What We'd Do Differently Next Time ###
+- **Workflow improvement**
+- **Communication Strategies**
+- **Division of work**
+- **Tooling**
 
 ---
 
