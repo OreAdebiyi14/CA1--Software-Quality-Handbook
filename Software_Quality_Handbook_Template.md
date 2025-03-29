@@ -4,10 +4,6 @@
 
 # Introduction
 
-## Introduction
-
-
-
 
 
 - Task estimation, 
@@ -42,14 +38,9 @@
 
 ---
 
-# Project Plan
-
 # Project Plan: Software Quality Handbook
 
 ## **1. Project Overview**
-
-
-
 
 
 
@@ -60,11 +51,6 @@
 
 
 ## **2. Team Roles**
-
-
-
-
-
 
 
 
@@ -101,8 +87,6 @@
 
 
 ---
-
-# Task Estimation
 
 # Task Estimation in Scrum 
 
@@ -230,8 +214,6 @@ graph TD;
 
 # Code Reviews
 
-# Code Reviews
-
 **Purpose:**
 - To define what code reviews are.
 - Why they're important for everyone.
@@ -349,12 +331,12 @@ graph TD;
 - **Ignoring Automation:** Manually reviewing issues that tools can catch.
 
 ```mermaid
-
-
-
-
-
-
+flowchart TB
+    subgraph "Pitfalls (Don'ts)"
+      D1[Overly Large PRs]
+      D2[Unconstructive Criticism]
+      D3[Ignoring Automation]
+    end
 ```
 
 **Mitigation Strategies:**  
@@ -363,12 +345,12 @@ graph TD;
 - Encourage a culture of respectful feedback and continuous learning.
 
 ```mermaid
-
-
-
-
-
-
+flowchart TB
+    subgraph "Solutions (Do's)"
+      S1[Break changes into smaller PRs]
+      S2[Use standardized checklists]
+      S3[Foster respectful feedback]
+    end
 ```
 
 ---
@@ -383,21 +365,22 @@ graph TD;
   
 **Visual Summary:**  
 ```mermaid
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+graph TD;
+    A[Code Review Cheat Sheet] --> B[Key Steps];
+    B --> C[Clear Feedback];
+    B --> D[Use Checklists];
+    A --> E[Authors' Tips];
+    E --> F[Prepare Code];
+    E --> G[Keep PRs Small];
+    A --> H[Automation];
+    H --> I[Linters & CI/CD];
+    A --> J[Avoid Pitfalls];
+    J --> K[Large PRs & Criticism];
+    A --> L[Mitigation];
+    L --> M[Break PRs];
+    L --> N[Respectful Feedback];
 ```
+
 *Caption:* A concise visual cheatsheet for rapid recall for good code reviews practices.
 
 ---
@@ -412,13 +395,13 @@ graph TD;
 
 **Visual Overview:**  
 ```mermaid
-
-
-
-
-
-
-
+graph LR;
+    A[Start] --> B[Define Guidelines];
+    B --> C[Set Up Automation];
+    C --> D[Train Team];
+    D --> E[Use Checklists];
+    E --> F[Review & Improve];
+    F --> G[Effective Code Reviews];
 ```
 *Caption:* A concise roadmap for implementing effective code review practices.
 
@@ -439,8 +422,6 @@ graph TD;
 
 
 ---
-
-# Debugging
 
 # Debugging & Bug Tracking
 
